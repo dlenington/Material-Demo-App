@@ -1,0 +1,19 @@
+<button color="primary" mat-raised-button>Button 1</button>
+<button color="accent" mat-raised-button>Button 2</button>
+
+<h1>Test Site</h1>
+<p>
+    This is a test
+</p>
+
+<button mat-fab color="warn">
+    <mat-icon>favorite</mat-icon>
+</button>
+<mat-divider></mat-divider>
+<div>
+    <mat-form-field>
+    <input matInput [matDatepicker]="calendarPopup" placeholder="Choose a date">
+<mat-datepicker-toggle matSuffix [for]="calendarPopup"></mat-datepicker-toggle>
+<mat-datepicker #calendarPopup></mat-datepicker>
+</mat-form-field>
+</div>
